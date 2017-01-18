@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4B92075F93A2A03F85DACB7FE9474997F237FA40",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "253940EFFD57AA0C844632FA47CFF566158B5D5C" : 9223372036854775807,
+    "4B92075F93A2A03F85DACB7FE9474997F237FA40" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C37D9D32-6A1A-43E4-AA77-63131FFF8860",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "253940EFFD57AA0C844632FA47CFF566158B5D5C" : "PilotPlant\/",
+    "4B92075F93A2A03F85DACB7FE9474997F237FA40" : "maislbut2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "maislbut2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "maislbut2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lingostar\/PilotPlant.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "253940EFFD57AA0C844632FA47CFF566158B5D5C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "hanmail.net",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B92075F93A2A03F85DACB7FE9474997F237FA40"
+    }
+  ]
+}
