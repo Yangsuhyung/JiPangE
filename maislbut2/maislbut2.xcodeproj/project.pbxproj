@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D29B37D1E3084A1002DBDF0 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B36E1E3084A1002DBDF0 /* CHContentViewController.swift */; };
+		8D29B37E1E3084A1002DBDF0 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B36F1E3084A1002DBDF0 /* CHControls.swift */; };
+		8D29B37F1E3084A1002DBDF0 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3701E3084A1002DBDF0 /* CHModalViewController.swift */; };
+		8D29B3801E3084A1002DBDF0 /* CHPagingScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3711E3084A1002DBDF0 /* CHPagingScrollViewController.swift */; };
+		8D29B3811E3084A1002DBDF0 /* CHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3721E3084A1002DBDF0 /* CHPickerViewController.swift */; };
+		8D29B3821E3084A1002DBDF0 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3731E3084A1002DBDF0 /* DrawingCanvasView.swift */; };
+		8D29B3831E3084A1002DBDF0 /* FIlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3741E3084A1002DBDF0 /* FIlters.swift */; };
+		8D29B3841E3084A1002DBDF0 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3751E3084A1002DBDF0 /* NavigationControllers.swift */; };
+		8D29B3851E3084A1002DBDF0 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3761E3084A1002DBDF0 /* RecordButton.swift */; };
+		8D29B3861E3084A1002DBDF0 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B3771E3084A1002DBDF0 /* UIViewController+Navigation.swift */; };
 		953404D41E26046F00EFA52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953404D31E26046F00EFA52E /* AppDelegate.swift */; };
 		953404D61E26046F00EFA52E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953404D51E26046F00EFA52E /* ViewController.swift */; };
 		953404D91E26046F00EFA52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953404D71E26046F00EFA52E /* Main.storyboard */; };
@@ -14,7 +24,6 @@
 		953404DE1E26046F00EFA52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953404DC1E26046F00EFA52E /* LaunchScreen.storyboard */; };
 		953404E91E26046F00EFA52E /* maislbut2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953404E81E26046F00EFA52E /* maislbut2Tests.swift */; };
 		953404F41E26046F00EFA52E /* maislbut2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953404F31E26046F00EFA52E /* maislbut2UITests.swift */; };
-		953405231E2612AE00EFA52E /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953405221E2612AE00EFA52E /* UIViewController+Navigation.swift */; };
 		95804A381E2E0B5800FB786B /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95804A1B1E2E0B5800FB786B /* DaumMap.framework */; };
 		95804A391E2E0B5800FB786B /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 95804A1D1E2E0B5800FB786B /* copyright.png */; };
 		95804A3A1E2E0B5800FB786B /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = 95804A1E1E2E0B5800FB786B /* daum_copyright.png */; };
@@ -63,6 +72,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D29B36E1E3084A1002DBDF0 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHContentViewController.swift; sourceTree = "<group>"; };
+		8D29B36F1E3084A1002DBDF0 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
+		8D29B3701E3084A1002DBDF0 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHModalViewController.swift; sourceTree = "<group>"; };
+		8D29B3711E3084A1002DBDF0 /* CHPagingScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPagingScrollViewController.swift; sourceTree = "<group>"; };
+		8D29B3721E3084A1002DBDF0 /* CHPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPickerViewController.swift; sourceTree = "<group>"; };
+		8D29B3731E3084A1002DBDF0 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		8D29B3741E3084A1002DBDF0 /* FIlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIlters.swift; sourceTree = "<group>"; };
+		8D29B3751E3084A1002DBDF0 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		8D29B3761E3084A1002DBDF0 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		8D29B3771E3084A1002DBDF0 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		953404D01E26046F00EFA52E /* maislbut2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maislbut2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		953404D31E26046F00EFA52E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		953404D51E26046F00EFA52E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +95,6 @@
 		953404EF1E26046F00EFA52E /* maislbut2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maislbut2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		953404F31E26046F00EFA52E /* maislbut2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maislbut2UITests.swift; sourceTree = "<group>"; };
 		953404F51E26046F00EFA52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		953405221E2612AE00EFA52E /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../PilotPlant/Sources/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		95804A1B1E2E0B5800FB786B /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
 		95804A1D1E2E0B5800FB786B /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
 		95804A1E1E2E0B5800FB786B /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
@@ -133,6 +151,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D29B3681E3084A1002DBDF0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8D29B36E1E3084A1002DBDF0 /* CHContentViewController.swift */,
+				8D29B36F1E3084A1002DBDF0 /* CHControls.swift */,
+				8D29B3701E3084A1002DBDF0 /* CHModalViewController.swift */,
+				8D29B3711E3084A1002DBDF0 /* CHPagingScrollViewController.swift */,
+				8D29B3721E3084A1002DBDF0 /* CHPickerViewController.swift */,
+				8D29B3731E3084A1002DBDF0 /* DrawingCanvasView.swift */,
+				8D29B3741E3084A1002DBDF0 /* FIlters.swift */,
+				8D29B3751E3084A1002DBDF0 /* NavigationControllers.swift */,
+				8D29B3761E3084A1002DBDF0 /* RecordButton.swift */,
+				8D29B3771E3084A1002DBDF0 /* UIViewController+Navigation.swift */,
+			);
+			name = Sources;
+			path = ../../../PilotPlant/Sources;
+			sourceTree = "<group>";
+		};
 		953404C71E26046E00EFA52E = {
 			isa = PBXGroup;
 			children = (
@@ -157,9 +193,9 @@
 		953404D21E26046F00EFA52E /* maislbut2 */ = {
 			isa = PBXGroup;
 			children = (
+				8D29B3681E3084A1002DBDF0 /* Sources */,
 				953404D31E26046F00EFA52E /* AppDelegate.swift */,
 				953404D51E26046F00EFA52E /* ViewController.swift */,
-				953405221E2612AE00EFA52E /* UIViewController+Navigation.swift */,
 				953404D71E26046F00EFA52E /* Main.storyboard */,
 				953404DA1E26046F00EFA52E /* Assets.xcassets */,
 				953404DC1E26046F00EFA52E /* LaunchScreen.storyboard */,
@@ -391,9 +427,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				953405231E2612AE00EFA52E /* UIViewController+Navigation.swift in Sources */,
+				8D29B3811E3084A1002DBDF0 /* CHPickerViewController.swift in Sources */,
+				8D29B3831E3084A1002DBDF0 /* FIlters.swift in Sources */,
+				8D29B37E1E3084A1002DBDF0 /* CHControls.swift in Sources */,
 				953404D61E26046F00EFA52E /* ViewController.swift in Sources */,
+				8D29B3801E3084A1002DBDF0 /* CHPagingScrollViewController.swift in Sources */,
+				8D29B37D1E3084A1002DBDF0 /* CHContentViewController.swift in Sources */,
 				953404D41E26046F00EFA52E /* AppDelegate.swift in Sources */,
+				8D29B3851E3084A1002DBDF0 /* RecordButton.swift in Sources */,
+				8D29B3861E3084A1002DBDF0 /* UIViewController+Navigation.swift in Sources */,
+				8D29B3841E3084A1002DBDF0 /* NavigationControllers.swift in Sources */,
+				8D29B37F1E3084A1002DBDF0 /* CHModalViewController.swift in Sources */,
+				8D29B3821E3084A1002DBDF0 /* DrawingCanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

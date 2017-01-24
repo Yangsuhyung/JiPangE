@@ -1,30 +1,30 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4B92075F93A2A03F85DACB7FE9474997F237FA40",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4419D228AEDE72D74021F384E3D4EA6B74D0F445",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "253940EFFD57AA0C844632FA47CFF566158B5D5C" : 9223372036854775807,
-    "4B92075F93A2A03F85DACB7FE9474997F237FA40" : 9223372036854775807
+    "4419D228AEDE72D74021F384E3D4EA6B74D0F445" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C37D9D32-6A1A-43E4-AA77-63131FFF8860",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "253940EFFD57AA0C844632FA47CFF566158B5D5C" : "PilotPlant\/",
-    "4B92075F93A2A03F85DACB7FE9474997F237FA40" : "maislbut2\/"
+    "4419D228AEDE72D74021F384E3D4EA6B74D0F445" : "JiPangE\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "maislbut2",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "maislbut2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "maislbut2\/maislbut2.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lingostar\/PilotPlant.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Yangsuhyung\/PilotPlant.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "253940EFFD57AA0C844632FA47CFF566158B5D5C"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "hanmail.net",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ProjectInTheClass\/JiPangE.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B92075F93A2A03F85DACB7FE9474997F237FA40"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4419D228AEDE72D74021F384E3D4EA6B74D0F445"
     }
   ]
 }
