@@ -9,3 +9,13 @@
 import Foundation
 import CoreLocation
 
+class CoreLocationController : NSObject, CLLocationManagerDelegate{
+    
+    var locationManager : CLLocationManager = CLLocationManager()
+    
+    override init() {
+        super.init()
+        self.locationManager.delegate = self
+        self.locationManager.requestAlwaysAuthorization()
+    }
+}
