@@ -45,6 +45,7 @@ class DetailTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell2 = tableView.dequeueReusableCell(withIdentifier: "DetailCell", for: indexPath) as! DetailTableViewCell
+
         
         let entry = data2.places[indexPath.row]
         let image = UIImage(named: entry.filename)

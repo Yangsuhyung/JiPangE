@@ -19,15 +19,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" showsReorderControl="YES" indentationWidth="10" reuseIdentifier="Cell" rowHeight="250" id="Uw9-yK-7NW" customClass="PlaceTableViewCell" customModule="review_table_view" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" selectionStyle="default" showsReorderControl="YES" indentationWidth="10" reuseIdentifier="Cell" rowHeight="250" id="Uw9-yK-7NW" customClass="PlaceTableViewCell" customModule="review_table_view" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="250"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" tableViewCell="Uw9-yK-7NW" id="dWr-eh-sds">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="249"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3V3-vc-yOE">
+                                        <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3V3-vc-yOE">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="249"/>
+                                            <gestureRecognizers/>
+                                            <connections>
+                                                <outletCollection property="gestureRecognizers" destination="lWN-gk-Tce" appends="YES" id="dpI-Bg-K6G"/>
+                                            </connections>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="251" text="Heading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHJ-m1-aN6">
                                             <rect key="frame" x="31" y="38" width="153" height="21"/>
@@ -56,8 +60,15 @@
                                 <connections>
                                     <outlet property="bkImageView" destination="3V3-vc-yOE" id="89G-ED-Th7"/>
                                     <outlet property="headingLabel" destination="RHJ-m1-aN6" id="8rA-Id-oXg"/>
-                                    <segue destination="IlL-CO-MoX" kind="show" id="Ek2-XO-CZX"/>
                                 </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="F0P-8W-HGP">
+                                <rect key="frame" x="0.0" y="278" width="375" height="250"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F0P-8W-HGP" id="5gQ-RI-cJR">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="249"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -71,6 +82,11 @@
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="URL-Vo-JYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lWN-gk-Tce">
+                    <connections>
+                        <segue destination="IlL-CO-MoX" kind="show" identifier="detail" id="do5-uY-wEG"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2304.8000000000002" y="-136.28185907046478"/>
         </scene>
@@ -108,6 +124,14 @@
                                 <connections>
                                     <outlet property="DetailImage" destination="o31-eD-pKR" id="uYR-sz-ChC"/>
                                 </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="274" id="JxX-4L-Qbe" customClass="DetailTableViewCell" customModule="review_table_view" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="344" width="375" height="274"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JxX-4L-Qbe" id="RG2-T0-01Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="273"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>

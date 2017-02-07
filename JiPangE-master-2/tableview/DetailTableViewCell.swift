@@ -11,6 +11,7 @@ import UIKit
 class DetailTableViewCell: UITableViewCell {
 
     @IBOutlet weak var DetailImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

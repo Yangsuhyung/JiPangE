@@ -47,6 +47,7 @@ class PlaceTableViewController: UITableViewController {
         let image = UIImage(named: entry.filename)
         
         cell.bkImageView.image = image
+        cell.backgroundView?.addSubview(UIImageView(image: image))
         cell.headingLabel.text = entry.heading
 
         // Configure the cell...

@@ -11,14 +11,18 @@
 		8D0EE0651E45749000EDF866 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EE0641E45749000EDF866 /* Data.swift */; };
 		8D0EE0671E4574CF00EDF866 /* PlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EE0661E4574CF00EDF866 /* PlaceTableViewController.swift */; };
 		8D0EE0691E45776900EDF866 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0EE0681E45776900EDF866 /* PlaceTableViewCell.swift */; };
-		8D1BCC021E49738200300D06 /* 남산야외식물원.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCBFE1E49738200300D06 /* 남산야외식물원.jpg */; };
-		8D1BCC041E49738200300D06 /* 송파소리길.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC001E49738200300D06 /* 송파소리길.jpg */; };
-		8D1BCC051E49738200300D06 /* 정릉숲.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC011E49738200300D06 /* 정릉숲.jpeg */; };
-		8D1BCC071E4973C800300D06 /* 덕수궁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC061E4973C800300D06 /* 덕수궁.jpg */; };
 		8D1BCC091E4975E300300D06 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BCC081E4975E300300D06 /* DetailViewController.swift */; };
 		8D1BCC0B1E4976F200300D06 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BCC0A1E4976F200300D06 /* DetailTableViewCell.swift */; };
 		8D1BCC0D1E49770200300D06 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BCC0C1E49770200300D06 /* DetailTableViewController.swift */; };
 		8D1BCC0F1E497E1300300D06 /* data2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BCC0E1E497E1300300D06 /* data2.swift */; };
+		8D1BCC141E49884F00300D06 /* 남산야외식물원.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC111E49884F00300D06 /* 남산야외식물원.jpg */; };
+		8D1BCC151E49884F00300D06 /* 송파소리길.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC121E49884F00300D06 /* 송파소리길.jpg */; };
+		8D1BCC161E49884F00300D06 /* 정릉숲.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC131E49884F00300D06 /* 정릉숲.jpeg */; };
+		8D1BCC181E49885400300D06 /* 덕수궁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC171E49885400300D06 /* 덕수궁.jpg */; };
+		8D1BCC1E1E498E5000300D06 /* 남산야외식물원 총지도.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC1A1E498E5000300D06 /* 남산야외식물원 총지도.jpg */; };
+		8D1BCC1F1E498E5000300D06 /* 덕수궁 세부지도.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC1B1E498E5000300D06 /* 덕수궁 세부지도.PNG */; };
+		8D1BCC201E498E5000300D06 /* 송파소리길총.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC1C1E498E5000300D06 /* 송파소리길총.jpg */; };
+		8D1BCC211E498E5000300D06 /* 정릉잣나무숲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BCC1D1E498E5000300D06 /* 정릉잣나무숲.jpg */; };
 		8DF1F9201E44841E000486E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1F91F1E44841E000486E6 /* AppDelegate.swift */; };
 		8DF1F9221E44841E000486E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1F9211E44841E000486E6 /* ViewController.swift */; };
 		8DF1F9251E44841E000486E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1F9231E44841E000486E6 /* Main.storyboard */; };
@@ -29,17 +33,21 @@
 
 /* Begin PBXFileReference section */
 		8D0EE0601E456A9800EDF866 /* reviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = reviewTableViewController.swift; path = ../reviewTableViewController.swift; sourceTree = "<group>"; };
-		8D0EE0641E45749000EDF866 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		8D0EE0661E4574CF00EDF866 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewController.swift; sourceTree = "<group>"; };
-		8D0EE0681E45776900EDF866 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
-		8D1BCBFE1E49738200300D06 /* 남산야외식물원.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "남산야외식물원.jpg"; path = "../../../남산야외식물원.jpg"; sourceTree = "<group>"; };
-		8D1BCC001E49738200300D06 /* 송파소리길.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "송파소리길.jpg"; path = "../../../송파소리길.jpg"; sourceTree = "<group>"; };
-		8D1BCC011E49738200300D06 /* 정릉숲.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "정릉숲.jpeg"; path = "../../../정릉숲.jpeg"; sourceTree = "<group>"; };
-		8D1BCC061E4973C800300D06 /* 덕수궁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "덕수궁.jpg"; path = "../../../../Documents/덕수궁.jpg"; sourceTree = "<group>"; };
+		8D0EE0641E45749000EDF866 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = "review table view/Data.swift"; sourceTree = "<group>"; };
+		8D0EE0661E4574CF00EDF866 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceTableViewController.swift; path = "review table view/PlaceTableViewController.swift"; sourceTree = "<group>"; };
+		8D0EE0681E45776900EDF866 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceTableViewCell.swift; path = "review table view/PlaceTableViewCell.swift"; sourceTree = "<group>"; };
 		8D1BCC081E4975E300300D06 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8D1BCC0A1E4976F200300D06 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTableViewCell.swift; path = ../DetailTableViewCell.swift; sourceTree = "<group>"; };
 		8D1BCC0C1E49770200300D06 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTableViewController.swift; path = ../DetailTableViewController.swift; sourceTree = "<group>"; };
 		8D1BCC0E1E497E1300300D06 /* data2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = data2.swift; path = ../data2.swift; sourceTree = "<group>"; };
+		8D1BCC111E49884F00300D06 /* 남산야외식물원.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "남산야외식물원.jpg"; path = "../../../../../Downloads/남산야외식물원.jpg"; sourceTree = "<group>"; };
+		8D1BCC121E49884F00300D06 /* 송파소리길.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "송파소리길.jpg"; path = "../../../../../Downloads/송파소리길.jpg"; sourceTree = "<group>"; };
+		8D1BCC131E49884F00300D06 /* 정릉숲.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "정릉숲.jpeg"; path = "../../../../../Downloads/정릉숲.jpeg"; sourceTree = "<group>"; };
+		8D1BCC171E49885400300D06 /* 덕수궁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "덕수궁.jpg"; path = "../../../../../Documents/덕수궁.jpg"; sourceTree = "<group>"; };
+		8D1BCC1A1E498E5000300D06 /* 남산야외식물원 총지도.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "남산야외식물원 총지도.jpg"; path = "../../../../../Downloads/남산야외식물원 총지도.jpg"; sourceTree = "<group>"; };
+		8D1BCC1B1E498E5000300D06 /* 덕수궁 세부지도.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "덕수궁 세부지도.PNG"; path = "../../../../../Downloads/덕수궁 세부지도.PNG"; sourceTree = "<group>"; };
+		8D1BCC1C1E498E5000300D06 /* 송파소리길총.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "송파소리길총.jpg"; path = "../../../../../Downloads/송파소리길총.jpg"; sourceTree = "<group>"; };
+		8D1BCC1D1E498E5000300D06 /* 정릉잣나무숲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "정릉잣나무숲.jpg"; path = "../../../../../Downloads/정릉잣나무숲.jpg"; sourceTree = "<group>"; };
 		8DF1F91C1E44841E000486E6 /* review table view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "review table view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF1F91F1E44841E000486E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF1F9211E44841E000486E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,12 +72,17 @@
 		8D0EE06A1E457A6D00EDF866 /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				8D1BCBFE1E49738200300D06 /* 남산야외식물원.jpg */,
-				8D1BCC001E49738200300D06 /* 송파소리길.jpg */,
-				8D1BCC061E4973C800300D06 /* 덕수궁.jpg */,
-				8D1BCC011E49738200300D06 /* 정릉숲.jpeg */,
+				8D1BCC1A1E498E5000300D06 /* 남산야외식물원 총지도.jpg */,
+				8D1BCC1B1E498E5000300D06 /* 덕수궁 세부지도.PNG */,
+				8D1BCC1C1E498E5000300D06 /* 송파소리길총.jpg */,
+				8D1BCC1D1E498E5000300D06 /* 정릉잣나무숲.jpg */,
+				8D1BCC111E49884F00300D06 /* 남산야외식물원.jpg */,
+				8D1BCC121E49884F00300D06 /* 송파소리길.jpg */,
+				8D1BCC131E49884F00300D06 /* 정릉숲.jpeg */,
+				8D1BCC171E49885400300D06 /* 덕수궁.jpg */,
 			);
 			name = sources;
+			path = "review table view";
 			sourceTree = "<group>";
 		};
 		8D1BCC101E497E3000300D06 /* detail */ = {
@@ -80,11 +93,25 @@
 				8D1BCC0A1E4976F200300D06 /* DetailTableViewCell.swift */,
 			);
 			name = detail;
+			path = "review table view";
+			sourceTree = "<group>";
+		};
+		8D1BCC191E498CE800300D06 /* place */ = {
+			isa = PBXGroup;
+			children = (
+				8D0EE0641E45749000EDF866 /* Data.swift */,
+				8D0EE0661E4574CF00EDF866 /* PlaceTableViewController.swift */,
+				8D0EE0681E45776900EDF866 /* PlaceTableViewCell.swift */,
+			);
+			name = place;
 			sourceTree = "<group>";
 		};
 		8DF1F9131E44841E000486E6 = {
 			isa = PBXGroup;
 			children = (
+				8D1BCC101E497E3000300D06 /* detail */,
+				8D0EE06A1E457A6D00EDF866 /* sources */,
+				8D1BCC191E498CE800300D06 /* place */,
 				8DF1F91E1E44841E000486E6 /* review table view */,
 				8DF1F91D1E44841E000486E6 /* Products */,
 			);
@@ -101,20 +128,15 @@
 		8DF1F91E1E44841E000486E6 /* review table view */ = {
 			isa = PBXGroup;
 			children = (
-				8D0EE06A1E457A6D00EDF866 /* sources */,
 				8DF1F91F1E44841E000486E6 /* AppDelegate.swift */,
 				8D1BCC081E4975E300300D06 /* DetailViewController.swift */,
 				8DF1F9311E448A60000486E6 /* ReviewTableViewCell.swift */,
 				8DF1F9211E44841E000486E6 /* ViewController.swift */,
 				8D0EE0601E456A9800EDF866 /* reviewTableViewController.swift */,
-				8D1BCC101E497E3000300D06 /* detail */,
 				8DF1F9231E44841E000486E6 /* Main.storyboard */,
 				8DF1F9261E44841E000486E6 /* Assets.xcassets */,
 				8DF1F9281E44841E000486E6 /* LaunchScreen.storyboard */,
 				8DF1F92B1E44841E000486E6 /* Info.plist */,
-				8D0EE0641E45749000EDF866 /* Data.swift */,
-				8D0EE0661E4574CF00EDF866 /* PlaceTableViewController.swift */,
-				8D0EE0681E45776900EDF866 /* PlaceTableViewCell.swift */,
 			);
 			path = "review table view";
 			sourceTree = "<group>";
@@ -178,13 +200,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D1BCC071E4973C800300D06 /* 덕수궁.jpg in Resources */,
-				8D1BCC051E49738200300D06 /* 정릉숲.jpeg in Resources */,
-				8D1BCC041E49738200300D06 /* 송파소리길.jpg in Resources */,
+				8D1BCC1E1E498E5000300D06 /* 남산야외식물원 총지도.jpg in Resources */,
+				8D1BCC1F1E498E5000300D06 /* 덕수궁 세부지도.PNG in Resources */,
+				8D1BCC151E49884F00300D06 /* 송파소리길.jpg in Resources */,
+				8D1BCC141E49884F00300D06 /* 남산야외식물원.jpg in Resources */,
+				8D1BCC161E49884F00300D06 /* 정릉숲.jpeg in Resources */,
+				8D1BCC201E498E5000300D06 /* 송파소리길총.jpg in Resources */,
+				8D1BCC181E49885400300D06 /* 덕수궁.jpg in Resources */,
 				8DF1F92A1E44841E000486E6 /* LaunchScreen.storyboard in Resources */,
 				8DF1F9271E44841E000486E6 /* Assets.xcassets in Resources */,
-				8D1BCC021E49738200300D06 /* 남산야외식물원.jpg in Resources */,
 				8DF1F9251E44841E000486E6 /* Main.storyboard in Resources */,
+				8D1BCC211E498E5000300D06 /* 정릉잣나무숲.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
